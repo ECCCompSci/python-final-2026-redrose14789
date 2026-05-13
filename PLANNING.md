@@ -1,16 +1,15 @@
 # 📝 Project Planning Worksheet
 
-**Name:** ___________________________  
-**Date:** ___________________________  
-**Project Title:** ___________________________
-
+**Name:** Emily 
+**Date:** May 9, 2026, 04:59
+**Project Title:** goldie locks
 ---
 
 ## Step 1 — What will your program do?
 
 *Write 2–3 sentences describing your project. What happens when the user runs it? What will they see or do?*
 
-> 
+> I am goi8ng to make a quiz that checks your answers, and gives a final score.
 
 ---
 
@@ -18,9 +17,9 @@
 
 *List every `input()` question you plan to use.*
 
-1. 
-2. 
-3. 
+1. would you like to go to the woods (yes/no)
+2. would you like to go to the cabin (yes/no)
+3. would you like to eat 1.the small bowl 2.the middle bowl 3.the big bowl (1/2/3) 
 
 ---
 
@@ -30,10 +29,9 @@
 
 | Variable Name | What It Stores | Data Type |
 |---------------|---------------|-----------|
-| | | |
-| | | |
-| | | |
-| | | |
+| playerName | the name of player |  |
+| town | where you came from | |
+| pet name | who's your fery friend in this adventure | |
 
 ---
 
@@ -41,9 +39,11 @@
 
 *Describe each `if/elif/else` check your program will use.*
 
-- If _________________________, then print _________________________
-- Elif _________________________, then print _________________________
-- Else print _________________________
+- If __1__, then print ___AGH! Way to hot!___
+- Elif __2__, then print __EW! Way to cold!__
+- Elif __3__, then print __MMMMM! Just Right!__
+- Else print "I'm sorry that was not an opption"
+print questoin again
 
 *(Add more rows if needed.)*
 
@@ -54,7 +54,7 @@
 *Write out what a sample run of your program might look like. Pretend you are the user.*
 
 ```
-Program output here...
-User types: 
-Program responds: 
+Program output here... LONG STORE BLA BLA BLA.. would you like to go to the woods
+User types: yes
+Program responds:you walk to the woods BLA BLA BLA.... 
 ```
