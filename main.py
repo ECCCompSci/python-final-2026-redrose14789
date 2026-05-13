@@ -37,7 +37,7 @@ if runFight == "Run":
     else:
         print ("The pack was to big for all of them to catch up. YOU ESCAPED! ")
 elif runFight == "Fight":
-    if nmName <=5: 
+    if nmName >=5: 
         print("Because their were only " + (str(nmName) + " mosters you were able to fight them off YOU ESCAPED!"))
     else:
         print("you got over powered you didn't make it. They got you :( )")
