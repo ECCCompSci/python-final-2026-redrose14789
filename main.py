@@ -1,52 +1,48 @@
 # ============================================================
 # Python Final Project 2026
-# Name: 
-# Date: 
-# Project Title: 
+# Name: Emily
+# Date: May 9, 2026, 04:59
+# Project Title: escape?
 # Description: (Write 1-2 sentences explaining what your program does)
+# can yo escape?
 # ============================================================
 
 
-# ---- SECTION 1: Setup / Variables ----
-# Create your starting variables here.
-# Example: player_name = ""
-
-
+cName = input("What is your name: ")
+aName = input("Name a pet: ")
+tName = input("Name a fantasy town: ")
+mName = input("Name a monster species: ")
+nmName = int(input("How many monsters are there: "))
 
 # ---- SECTION 2: Welcome Message ----
 # Greet the user and explain what your program does.
 
-print("Welcome!")
-print("----------------------------")
+
+
+print("Hello " + cName)
+print("You and your pet "+ aName + " were walking through the woods of " + tName + " when " + (str(nmName) +" "+ mName + " come out of no where and start attacking you and " + aName))
+runFight = input("Would you like to Run or Fight: ")
 
 
 
-# ---- SECTION 3: Get Input from User ----
-# Use input() to ask the user for information.
-# Remember: input() always returns a string.
-# Use int() or float() if you need a number.
-
-# Example:
-# player_name = input("What is your name? ")
-# score = int(input("Enter a number: "))
 
 
 
 # ---- SECTION 4: Logic (if / elif / else) ----
 # Use if/elif/else to make decisions based on user input or variables.
 
-# Example:
-# if score >= 90:
-#     print("Great job!")
-# elif score >= 70:
-#     print("Good work!")
-# else:
-#     print("Keep practicing!")
+if runFight == "Run":
+    if nmName <= 5:
+        print ("Because they are in a small pack you you can't run fast enough and they get you. :( )")
+    else:
+        print ("The pack was to big for all of them to catch up. YOU ESCAPED! ")
+elif runFight == "Fight":
+    if nmName <=5: 
+        print("Because their were only " + (str(nmName) + " mosters you were able to fight them off YOU ESCAPED!"))
+    else:
+        print("you got over powered you didn't make it. They got you :( )")
+else: print("Invailed answer play again")
 
-
-
-# ---- SECTION 5: Final Output ----
-# Print a final message, result, or summary to the user.
 
 print("----------------------------")
 print("Thanks for using my program!")
